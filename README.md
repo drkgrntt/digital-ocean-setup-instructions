@@ -236,7 +236,7 @@ We will install the latest LTS release of Node.js, using the NodeSource package 
 
 We can download this script by typing
 ```bash
-curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
 ```
 
 And run the script under sudo:
@@ -288,7 +288,7 @@ Here you can simply delete everything from this file and past this in
 
 ```bash
 server {
-listen 80;
+    listen 80;
     return 301 https://$host$request_uri;
 }
 server {
@@ -338,7 +338,7 @@ sudo apt-get update
 And finally, install Certbot's Nginx package with `apt-get`.
 
 ```bash
-sudo apt-get install python-certbot-nginx
+sudo apt-get install python3-certbot-nginx
 ```
 
 ## Step 2 — Obtaining an SSL Certificate
