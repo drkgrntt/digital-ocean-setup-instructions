@@ -451,4 +451,5 @@ Check to make sure your site is accessible again in the browser, if everything i
 
 Congrats you have a fully functioning production ready app!
 
-if you have questions, feel free to email me: joshborup@gmail.com
+Next step:
+https://github.com/drkgrntt/PostgreSQL-digital-ocean-remote-access-via-pgadmin4
